@@ -6,6 +6,6 @@ function maximumNum() {
             maxNum=arguments[i];
         }
     }
-    console.log(maxNum);
+    return maxNum;
 }
 maximumNum(6,8,2,4,9,1);

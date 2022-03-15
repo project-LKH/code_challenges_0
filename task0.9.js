@@ -1,6 +1,6 @@
 function checkForVowels(str) {
-    let answer = [];
-    let vowels = ["a","e","i","o","u","A","E","I","O","U"];
+    const answer = [];
+    const vowels = ["a","e","i","o","u","A","E","I","O","U"];
     for (i=0;i<str.length; i+=1){
         for (j=0;j<vowels.length; j+=1){
             if (str[i]==vowels[j]){

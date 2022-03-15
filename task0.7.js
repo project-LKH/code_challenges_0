@@ -1,11 +1,11 @@
 function celToFah(cel){
     fahrenheight = (cel *1.8)+32;
-    console.log(fahrenheight);
+    return fahrenheight;
 }
 
 function fahToCel(fah) {
     celcius= (fah-32)*(5/9);
-    console.log(celcius);
+    return celcius;
 }
 
 
