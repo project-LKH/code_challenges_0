@@ -1,8 +1,8 @@
 function commonLetters(str1,str2) {
     const common = [];
-    for (i=0;i<str1.length; i+=1){
+    for (let i=0;i<str1.length; i+=1){
 
-        for (j=0;j<str2.length; j+=1){
+        for (let j=0;j<str2.length; j+=1){
 
             if (str1[i]==str2[j]){
 

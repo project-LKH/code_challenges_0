@@ -1,6 +1,6 @@
 function maximumNum() {
-    let maxNum=0;
-    for (i=0;i<arguments.length;i+=1){
+    let maxNum=arguments[1];
+    for (let i=0;i<arguments.length;i+=1){
 
         if (arguments[i]>maxNum){
             maxNum=arguments[i];
