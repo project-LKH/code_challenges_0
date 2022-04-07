@@ -1,9 +1,5 @@
 function oddOrEven(num) {
-   if (num % 2 == 1) {
-   console.log("odd");
-   } else{
-   console.log("even");
-   }
+  num % 2 == 1 ? console.log("odd") : console.log("even");
 }
 oddOrEven(25);
 oddOrEven(16);
